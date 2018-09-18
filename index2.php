@@ -1,9 +1,7 @@
 <?php
-print "<h3>Here are first changes from (Branch 1) ..................<h3>";
+print "<h1>This is index2.php page</h1>";
 
-
-
-print "<h2>Here is my comman commit into all files and add this file on this time .... 2 ......<h2>";
-
-
+for($i=1; $i<=10; $i++){
+    print "<p><b>It is a part of Branch - branch1 - $i </b></p>";
+}
 ?>

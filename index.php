@@ -1,19 +1,7 @@
 <?php
-print "<h3>Here are first changes from (Branch 1) ..................<h3>";
-
-
-print "<p>This is Git Testing.<p>";
+print "<h1>This is index.php page</h1>";
 
 for($i=1; $i<=10; $i++){
-    print "Hello, This is test - $i <br/>";
+    print "<p><b>It is a part of Branch - branch1 - $i </b></p>";
 }
-
-
-print "This is Test 2";
-
-print "<h2>Here is my comman commit into both files..........<h2>";
-print "<h2>Here is my comman commit into both files.... 2 ......<h2>";
-
-print "<h2>Here is my comman commit into both files.... 3 ......<h2>";
-print "<h2>Here is my comman commit into both files.... 3 ......<h2>";
 ?>
